@@ -19,6 +19,7 @@ body {
     font-size: 26px;
     line-height: 1.47;
     color: var(--accent-color);
+    letter-spacing: 0.03em;
     
 }
 .second-part-of-logo{
@@ -28,7 +29,7 @@ body {
     font-size: 26px;
     line-height: 1.47px;
     color: black;
-    
+    letter-spacing: 0.03em;   
 }
 
 /*header without logo*/
@@ -37,6 +38,7 @@ header a {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
  .navigation-items {
@@ -67,6 +69,7 @@ header a {
     font-size: 44px;
     line-height: 1.5;
     /*color:#ffffff*/
+    letter-spacing: 0.06em;
 }
 
 .hero-section-button{
@@ -88,6 +91,7 @@ header a {
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--header-color);
+    letter-spacing: 0.03em;
 }
 
 .our-benefits .our-benefits-description{
@@ -95,6 +99,7 @@ header a {
     font-size: 14px;
     line-height: 1.71;
     color: var(--subheader-color);
+    letter-spacing: 0.03em;
 }
 
 /*чем мы занимаемся*/
@@ -105,6 +110,7 @@ header a {
     font-weight: bold;
     font-size: 36px;
     line-height: 1.16;
+    letter-spacing: 0.03em;
 }
 .what-we-are-doing-list{
     font-weight: bold;
@@ -126,12 +132,14 @@ header a {
     font-size: 16px;
     line-height: 19px;
     color: var(--header-color);
+    letter-spacing: 0.03em;
 }
 .our-team-position{
     font-weight: normal;
     font-size: 16px;
     line-height: 1.18;
     color: var(--subheader-color);
+    letter-spacing: 0.03em;
 }
 .our-team-social-links :hover,
 .our-team-social-links :focus{
@@ -154,6 +162,7 @@ header a {
     font-size: 36px;
     line-height: 1.67x;
     color: var(--header-color);
+    letter-spacing: 0.03em;
 }
 
 .our-clients-list li{
@@ -175,16 +184,19 @@ header a {
     font-size: 26px;
     line-height: 1.47px;
     color:#fff;
+    letter-spacing: 0.03em;
 }
 
 .footer-items{
     text-decoration: none;
     list-style-type: none;
+    letter-spacing: 0.03em;
  
 }
 .footer-address{
     color: #fff;
-    font-style:normal
+    font-style:normal;
+    letter-spacing: 0.03em;
    
 }
 
@@ -193,6 +205,7 @@ header a {
     font-size: 14px;
     line-height: 1.7; 
     color: rgba(255, 255, 255, 0.6);
+    letter-spacing: 0.03em;
 }
 
 .join-us .link:hover,
@@ -211,12 +224,16 @@ header a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #fff;
+    letter-spacing: 0.03em;
 }
 
 /*portfolio page*/
 .gallery-items{
     text-decoration: none;
     list-style-type: none;
+}
+.gallery-items .filter-btn:hover{
+    color: var(--accent-color);
 }
 
 .portfolio-list{
@@ -228,12 +245,14 @@ header a {
     font-size: 18px;
     line-height: 2;
     color: var(--header-color);
+    letter-spacing: 0.03em;
 }
 .portfolio-list-description{
     font-weight: normal;
     font-size: 16px;
     line-height: 1.87;
     color: var(--subheader-color);
+    letter-spacing: 0.03em;
 }
 
 
