@@ -1,0 +1,201 @@
+
+:root{
+    --background-color:#fff;
+    --accent-color: #2196F3;
+    --header-color: #212121;
+    --subheader-color: #757575;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+}
+/*logo*/
+
+.first-part-of-logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.47;
+    color: var(--accent-color);
+    
+}
+.second-part-of-logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.47px;
+    color: black;
+    
+}
+
+/*header without logo*/
+header a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+ .navigation-items {
+    list-style-type: none;
+ }
+
+.navigation-items .link:hover,
+.navigation-items .link:focus{
+    color: var(--accent-color);
+}
+
+.navigation-items a {
+    color:var(--header-color);
+}
+
+.contact-info :hover,
+.contact-info :focus{ 
+    color: var(--accent-color);
+}
+
+.contact-info a{
+    color:var(--subheader-color)
+}
+
+/*hero section*/
+.hero-section-header{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    /*color:#ffffff*/
+}
+
+.hero-section-button{
+    background-color: var(--accent-color);
+    color:var(--background-color) ;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.80;
+}
+
+/*Наши преимущества*/
+.our-benefits li{
+    list-style-type: none;
+}
+
+ .our-benefits .our-benefits-header{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--header-color);
+}
+
+.our-benefits .our-benefits-description{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--subheader-color);
+}
+
+/*чем мы занимаемся*/
+.what-we-are-doing li{
+    list-style-type: none;
+}
+.what-we-are-doing-header{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.16;
+}
+.what-we-are-doing-list{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    /*color: #fff;*/
+}
+
+/*our team*/
+.our-team-section li{
+    list-style-type: none;
+}
+.our-team-section{
+    background-color: #F5F4FA;
+}
+.our-team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--header-color);
+}
+.our-team-position{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--subheader-color);
+}
+.our-team-social-links :hover,
+.our-team-social-links :focus{
+    color: var(--accent-color);
+}
+
+.team-links{
+    text-decoration: none;
+}
+
+/*наши постоянные клиенты*/
+.our-clients-list .link:hover,
+.our-clients-list .link:focus{
+    color: var(--accent-color);
+}
+/*подвал*/
+
+.footer a{
+    text-decoration: none;
+}
+.footer{
+    background-color: #2F303A;
+}
+.footer .second-part-of-logo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.47px;
+    color:#fff;
+}
+
+.footer-items{
+    text-decoration: none;
+    list-style-type: none;
+ 
+}
+.footer-address{
+    color: #fff;
+    font-style:normal
+   
+}
+
+.footer-contact{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7; 
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.join-us .link:hover,
+.join-us .link:focus{
+    color: var(--accent-color);
+}
+
+.join-us{
+    text-decoration: none;
+    list-style-type: none;
+}
+.join-us-header{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #fff;
+}
