@@ -147,6 +147,19 @@ header a {
 .our-clients-list .link:focus{
     color: var(--accent-color);
 }
+
+
+.our-clients-header{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.67x;
+    color: var(--header-color);
+}
+
+.our-clients-list li{
+    text-decoration: none;
+    list-style-type: none;
+}
 /*подвал*/
 
 .footer a{
@@ -199,3 +212,30 @@ header a {
     text-transform: uppercase;
     color: #fff;
 }
+
+/*portfolio page*/
+.gallery-items{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.portfolio-list{
+    list-style-type: none;
+}
+
+.portfolio-list-header{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--header-color);
+}
+.portfolio-list-description{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--subheader-color);
+}
+
+
+/*text-decoration: none;
+    list-style-type: none;*/
