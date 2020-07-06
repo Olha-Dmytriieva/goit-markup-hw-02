@@ -232,7 +232,7 @@ header a {
     text-decoration: none;
     list-style-type: none;
 }
-.gallery-items .filter-btn:hover{
+ .filter-btn:hover{
     color: var(--accent-color);
 }
 
