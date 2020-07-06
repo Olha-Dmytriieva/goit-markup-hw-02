@@ -169,6 +169,9 @@ header a {
     text-decoration: none;
     list-style-type: none;
 }
+.client-logo:hover{
+color: var(--accent-color);
+}
 /*подвал*/
 
 .footer a{
