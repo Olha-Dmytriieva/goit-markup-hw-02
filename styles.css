@@ -236,7 +236,8 @@ color: var(--accent-color);
     list-style-type: none;
 }
  .filter-btn:hover{
-    color: var(--accent-color);
+    color: #fff;
+    background-color: var(--accent-color)
 }
 
 .portfolio-list{
