@@ -236,7 +236,7 @@ color: var(--accent-color);
     list-style-type: none;
 }
  .filter-btn:hover{
-    color: #fff;
+     color: #fff;
     background-color: var(--accent-color)
 }
 
